@@ -6,7 +6,7 @@ You are given two tasks to complete in JavaScript. Each task requires you to imp
 
 ### Task 1: solution1(name, score)
 
-- Implement the function `solution1` that takes an object with `name` and `score` properties.
+- Implement the function `solution1` that takes two parameters `name` and `score`.
 - The function should return a string in the format:
   - "<name> passed with a score of <score>" if the score is 15 or above.
   - "<name> failed with a score of <score>" if the score is below 15.
@@ -18,9 +18,9 @@ You are given two tasks to complete in JavaScript. Each task requires you to imp
   // Alice passed with a score of 78
   ```
 
-### Task 2: solution2(input)
+### Task 2: solution2(name, score, template)
 
-- Implement the function `solution2` that takes an object with `name`, `score`, and `template` properties.
+- Implement the function `solution2` that takes three parameters `name`, `score`, and `template`.
 - The function should replace placeholders in the template string:
   - `{{name}}` with the name
   - `{{score}}` with the score
